@@ -1,0 +1,803 @@
+*{
+    margin: 0%;
+}
+#among{
+   display: flex;
+   /* flex-direction: row; */
+   
+   justify-content: space-between;
+   align-items: center;
+   background-color: 		#53dafb;
+  
+ 
+  
+}
+.among2:hover{
+    text-decoration: underline;
+    color: red;
+
+}
+#Vin{
+    margin-left: 250px;
+    font-size: 35px;
+     font-family: "Pacifico", cursive; 
+}
+#vin1{
+    margin-top: 50px;
+    margin-right: 300px;
+    font-size: 17px;
+    font-family: "Pacifico", cursive;
+    color: darkred;
+}
+ul{
+    display: flex;
+    padding: 5px;
+   
+   
+}
+.among2{
+    margin: 0px 40px;
+   font-size: 16px;
+   color:black;
+   font-weight: 600;
+ 
+  
+
+}
+.adi{
+    background-color: black;
+    width: 100%;
+    height: 700px;
+  
+
+}
+#hen{
+    position: relative;
+    /* background-size: cover;
+    background-attachment: fixed; */
+}
+#Ambition{
+    position: absolute;
+    left: 37%;
+    top: 30.5%;
+    font-size: 22px;
+    color: darkred;
+}
+#henry{
+    position: absolute;
+    left: 34%;
+    top: 36%;
+    font-size: 111px;
+    
+    
+}
+#Amb1{
+    position: absolute;
+    left: 38%;
+    top: 60%;
+    font-size: 25px;
+    color: blue;
+  
+    
+    
+}
+#ex{
+    position: absolute;
+    left: 45%;
+    top: 65%;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+  
+
+}
+#mila{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: relative;
+  
+}
+
+
+#hal{
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    font-size: 60px;
+}
+#widow{
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    font-size: 60px;
+}
+#youth{
+    font-family: Arial, Helvetica, sans-serif;
+   
+   
+    position: absolute;
+    left: 10%;
+    font-size: 20px;
+    top: 30%;
+}
+#anju{
+    left: 10%;
+    position: absolute;
+
+}
+#anju{
+    left: 10%;
+    position: absolute;
+    top: 70%;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+
+}
+#ref{
+    left: 20%;
+    position: absolute;
+    top: 70%;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+
+}
+#major{
+  
+    width: 100%;
+    height: 1000px;
+    background-color: blue;
+    position: relative;
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr); */
+
+}
+
+#duck{
+    width: 100px;
+    height: 0.1px;
+}
+
+
+#service{
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+
+}
+#choose{
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+
+}
+
+#big1{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 300px;
+    height: 350px;
+   background-color: white;
+}
+#big2{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 300px;
+    height: 350px;
+    background-color: white;
+  
+
+}
+#big3{
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    top: 20%;
+  right: 10%;
+  background-color: white;
+   
+
+}
+#big4{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    width: 300px;
+    height: 350px;
+   background-color: white;
+
+}
+#big5{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    width: 300px;
+    height: 350px;
+    background-color: white;
+
+}
+#big6{
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    top: 60%;
+  right: 10%;
+  background-color: white;
+
+}
+#dev{
+    font-size: 25px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 10%;
+    top: 8%;
+
+}
+#hexa{
+    font-size: 15px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+
+}
+#padm{
+    left: 40%;
+    position: absolute;
+    top: 60%;
+    color: black;
+    font-size: 18px;
+
+}
+#fin{
+    position: absolute;
+    left: 40%;
+    top: 80%;
+    transform: translateX(-40%);
+    font-size: 25px;
+    background-color: black;
+    color: white;
+}
+.santa1{
+    border: 2px solid black;
+}
+#big7{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    left: 47%;
+    top: 16.7%;
+    transform: translateY(50%);
+   background-color: lightblue;
+}
+#din{
+    position: absolute;
+    left: 15%;
+    top: 10%;
+    font-size: 17px;
+}
+#eng{
+    font-size: 25px;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#paisa{
+    font-size: 68px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 34%;
+    top: 28%;
+}
+#dhan{
+    font-family: Arial, Helvetica, sans-serif;
+   
+    position: absolute;
+    left: 10%;
+    top: 55%;
+    color: black;
+
+}
+#yt{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translateX(-50%);
+    color: black;
+
+}
+#rinse{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+font-size: 13px;
+left: 50%;
+top: 68%;
+transform: translateX(-50%);
+
+}
+#char{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    position: absolute;
+    left: 52%;
+    top: 78%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    
+
+}
+#call{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+.butter{
+    font-size: 18px;
+}
+#cold{
+    position: absolute;
+    left: 10%;
+    top: 25%;
+
+}
+#caty{
+    position: absolute;
+    left: 10%;
+    top: 40%;
+
+}
+#cari{
+    position: absolute;
+    left: 10%;
+    top: 55%;
+
+    
+}
+#cutey{
+    position: absolute;
+    left: 10%;
+    top: 70%;
+
+}
+#siri{
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+  
+
+}
+#sont{
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+  
+
+}
+#sanjay{
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+  
+
+}
+#sid{
+    position: absolute;
+    left: 20%;
+    top: 55%;
+    font-family: Arial, Helvetica, sans-serif;
+  
+
+}
+#sravan{
+    position: absolute;
+    left: 20%;
+    top: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+  
+
+}
+#datsun{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+#toyota{
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+
+}
+#maruthi{
+    width: 100%;
+    height: 600px;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   grid-template-rows: repeat(2,1fr);
+
+}
+.namy{
+    border: 0.1px solid lightgrey;
+}
+#cruize{
+    position: relative;
+    top: -70%;
+    width: 600px;
+    height: 400px;
+    left: 20%;
+
+}
+#beat{
+    position: relative;
+    top: -70%;
+    width: 600px;
+    height: 400px;
+    right: 1%;
+    background-color: white;
+
+}
+#xuv{
+    position: relative;
+    top: -65%;
+    width: 600px;
+    height: 400px;
+    left: 20%;
+
+}
+#gwagon{
+    position: relative;
+    top: -65%;
+    width: 600px;
+    height: 400px;
+    right: 1%;
+    background-color: white;
+
+}
+#logit{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+#get{
+    position: absolute;
+    left: 90%;
+    top: 11%;
+
+}
+#fort{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    position: absolute;
+    left: 20%;
+    top: 12%;
+    
+}
+#spell{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    position: absolute;
+    left: 20%;
+    top: 17%;
+    
+}
+#risy{
+    font-family: Arial, Helvetica, sans-serif;
+    left: 10%;
+    top: 27%;
+    position: absolute;
+    font-size: 40px;
+
+}
+#sandro{
+    font-family: Arial, Helvetica, sans-serif;
+    left: 11%;
+    top: 40%;
+    position: absolute;
+    font-size: 20px;
+
+
+}
+#zing{
+    left: 11%;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 90%;
+    font-size: 14px;
+
+
+
+}
+#anstony{
+   left: 20%;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 90%;
+    font-size: 14px;
+
+}
+#jaquar{
+    left: 90%;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 90%;
+    font-size: 14px;
+
+}
+.didf{
+    left: 92%;
+    position: absolute;
+    top: 90%;
+
+}
+#fort:hover{
+    text-decoration: none;
+    color: #0D98BA;
+}
+#risy:hover{
+    text-decoration: none;
+    color: #0D98BA;
+
+}
+#sandro:hover{
+    text-decoration: none;
+    color: #0D98BA;
+
+}
+#hyundai{
+    width: 100%;
+    height: 600px;
+    background-color: #53dafb;
+    position: relative;
+}
+#ress{
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    font-size: 35px;
+
+}
+#swt{
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    font-size: 17px;
+
+}
+#wer{
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    font-size: 17px;
+
+}
+#river{
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    font-size: 17px;
+
+}
+#fer{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    font-size: 17px;
+
+}
+.wish{
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    font-size: 25px;
+    
+
+}
+.wish:hover{
+    color: orange;
+}
+.hist{
+    position: absolute;
+    left: 13%;
+    top: 60%;
+    font-size: 25px;
+
+}
+.hist:hover{
+    color: red;
+}
+.deru{
+    position: absolute;
+    left: 16%;
+    top: 60%;
+    font-size: 25px;
+}
+.deru:hover{
+    color: darkmagenta;
+}
+.darvin{
+    position: absolute;
+    left: 19%;
+    top: 60%;
+    font-size: 25px;
+
+}
+.darvin:hover{
+    color: red;
+}
+#fd{
+    position: absolute;
+    left: 10%;
+    top: 75%;
+    font-size: 17px;
+   
+
+
+}
+#hem{
+    font-size: 30px;
+    background-color: #53dafb;
+    position: absolute;
+    left: 60%;
+    top: 15%;
+    border: 2px solid black;
+    /* font-size: 17px; */
+   
+}
+#twist{
+    font-size: 17px;
+    background-color: #53dafb;
+    position: absolute;
+    left: 60%;
+    top: 10%;
+
+}
+#vig{
+    font-size: 17px;
+    background-color: #53dafb;
+    position: absolute;
+    left: 60%;
+    top: 27%;
+
+}
+#qwerty{
+    font-size: 30px;
+    background-color: #53dafb;
+    position: absolute;
+    left: 60%;
+    top: 32%;
+    border: 2px solid black;
+    /* font-size: 17px; */
+   
+}
+#vir{
+    font-size: 17px;
+    background-color: #53dafb;
+    position: absolute;
+    left: 60%;
+    top: 44%;
+
+}
+#qualify{
+    font-size: 30px;
+    background-color: #53dafb;
+    position: absolute;
+    left: 60%;
+    top: 49%;
+    border: 2px solid black;
+    /* font-size: 17px; */
+   
+}
+#virtus{
+    font-size: 17px;
+    background-color: #53dafb;
+    position: absolute;
+    left: 60%;
+    top: 61%;
+
+}
+#qualifier{
+    font-size: 30px;
+    height: 80px;
+    background-color: #53dafb;
+    position: absolute;
+    left: 60%;
+    top: 66%;
+    border: 2px solid black;
+    /* font-size: 17px; */
+   
+}
+#virtus{
+    font-size: 17px;
+    background-color: #53dafb;
+    position: absolute;
+    left: 60%;
+    top: 61%;
+
+}
+#digital{
+    position: absolute;
+    left: 79%;
+    top: 83%;
+    font-size: 23px;
+    background-color: black;
+    color: white;
+
+}
+#digital:hover{
+    background-color: white;
+    color: black;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background-color: white;
+}
+::-webkit-scrollbar-thumb{
+    background-color:  red;
+}
+.namy {
+    transition: transform 0.3s ease-in-out;
+}
+
+.namy:hover {
+    transform: scale(1.2);
+}
+.santa1 {
+    transition: transform 0.3s ease-in-out;
+}
+
+.santa1:hover {
+    transform: scale(1.2);
+}
+.santa {
+    transition: transform 0.3s ease-in-out;
+}
+
+.santa:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
